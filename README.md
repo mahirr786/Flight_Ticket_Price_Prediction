@@ -37,7 +37,7 @@ The app provides an instant prediction of flight prices using a Random Forest mo
 
 _
 
-## Steps to run Flight Fare App - on Windows
+## Steps to run Flight Fare App - on Windows(local_host_deployment)
 
 * Prerequisites: [Python 3.9](https://www.python.org/downloads/) (ensure Python is added to [PATH](https://medium.com/co-learning-lounge/how-to-download-install-python-on-windows-2021-44a707994013)) + [Git](https://git-scm.com/downloads) Client 
 * Open GIT CMD >> navigate to working directory >> Clone this Github Repo (or download project files from GitHub directly)
@@ -55,6 +55,4 @@ _
   
 
 ### Important links:
-
-* [Dataset](https://www.kaggle.com/datasets/nikhilmittal/flight-fare-prediction-mh)
 * [Project Folder on Drive](https://drive.google.com/drive/folders/1vnapi048bbmoXyoxOLLX6W_tA6a1uQ9w?usp=sharing)
