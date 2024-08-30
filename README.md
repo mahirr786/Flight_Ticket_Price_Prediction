@@ -15,7 +15,12 @@ Pre-trained Model: The model is trained on historical flight data, and the predi
 Responsive Design: The front end is developed using HTML and is designed to be simple and easy to use.
 
 ## Project Structure
-![](templates/App_Functionality.gif)
+![Screenshot 2024-08-31 015948](https://github.com/user-attachments/assets/c48c2111-1689-4920-a843-5ec4aad5862e)
+
+![Screenshot 2024-08-31 020229](https://github.com/user-attachments/assets/15f60752-95dc-45f6-b59c-e0f119298776)
+
+![Screenshot 2024-08-31 020322](https://github.com/user-attachments/assets/46b653e4-aa0c-400b-958f-00a09c20386e)
+
 
 "app.py" : The main Flask application script that handles routing, data processing, and model prediction.
 
