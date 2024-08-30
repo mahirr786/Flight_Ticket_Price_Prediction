@@ -13,4 +13,22 @@ a {
 
 a:hover {
     color: #f0f0f0;
-  }
+}
+
+/* Centering the heading in the navbar */
+.navbar-header {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-brand {
+    display: inline-block;
+    margin: 0 auto;
+    font-weight: bold; /* Makes the text bold */
+    font-size: 28px;   /* Adjust the font size as needed */
+}
+
+.card {
+    border-radius: 8px;  /* Rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);  /* Increased shadow for more 3D effect */
+}

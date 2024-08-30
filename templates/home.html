@@ -20,15 +20,16 @@
 <body>
 
     <!-- As a heading -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">Skillcate Project: Flight Price Prediction</a>
-            </div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header text-center">
+            <a class="navbar-brand mx-auto" href="/">Flight Ticket Price Prediction</a>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <br><br><br>
+
+    <br><br>
 
 
     <div class="container">
@@ -71,7 +72,7 @@
                     <div class="card">
                         <div class="card-body">
                             <!-- Source -->
-                            <h5 class="card-title">Travelling from (Source)</h5>
+                            <h5 class="card-title">Travelling from (Departure)</h5>
                             <select name="Source" id="Source" required="required">
                                 <option value="Delhi">Delhi</option>
                                 <option value="Kolkata">Kolkata</option>
@@ -146,20 +147,15 @@
 
 
 
-            <br>
-            <br>
+           
             <br>
             <!-- Submit -->
-            <input type="submit" value="Perdict Price" class="btn btn-secondary">
+            <input type="submit" value="Predict Price" class="btn btn-secondary">
         </form>
 
-        <br>
-        <br>
         <h3>{{ prediction_text }}</h3>
 
-        <br>
-        <br>
-        <p>©2022 Skillcate AI</p>
+        <p>@mnojkumarr786</p>
 
     </div>
 
