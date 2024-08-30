@@ -15,8 +15,16 @@ Pre-trained Model: The model is trained on historical flight data, and the predi
 Responsive Design: The front end is developed using HTML and is designed to be simple and easy to use.
 
 ## Project Structure
+"app.py" : The main Flask application script that handles routing, data processing, and model prediction.
+
+"c1_flight_rf.pkl" : The pre-trained Random Forest model used for predicting flight prices.
+
+"templates/home.html" : The HTML template that serves as the front end of the application, allowing users to input flight details and view the predicted price.
+
+## App Functionality
 ![Screenshot 2024-08-31 015948](https://github.com/user-attachments/assets/c48c2111-1689-4920-a843-5ec4aad5862e)
 This how the Home-Page looks.
+
 _
 
 ![Screenshot 2024-08-31 020229](https://github.com/user-attachments/assets/15f60752-95dc-45f6-b59c-e0f119298776)
@@ -28,17 +36,6 @@ _
 The app provides an instant prediction of flight prices using a Random Forest model.
 
 _
-
-
-
-"app.py" : The main Flask application script that handles routing, data processing, and model prediction.
-
-"c1_flight_rf.pkl" : The pre-trained Random Forest model used for predicting flight prices.
-
-"templates/home.html" : The HTML template that serves as the front end of the application, allowing users to input flight details and view the predicted price.
-
-## App Functionality
-![](templates/App_Functionality.gif)
 
 ## Steps to run Flight Fare App - on Windows
 
